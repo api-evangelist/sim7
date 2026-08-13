@@ -1,0 +1,40 @@
+name: Sim7
+description: >-
+  Virtual phone numbers for receiving SMS/OTP verification codes across services and countries. Provides a REST API for
+  buying/reserving numbers, checking order status, managing balance, and configuring webhooks.
+url: https://sim7.apievangelist.com/apis.yml
+created: '2026-08-13'
+modified: '2026-08-13'
+specificationVersion: '0.21'
+tags:
+  - sms
+  - otp
+  - verification
+  - virtual numbers
+  - communication
+  - authentication
+apis:
+  - name: Sim7 REST API
+    description: >-
+      REST API for on-demand virtual numbers for SMS/OTP verification. Bearer token auth (live/test keys), IP allowlist,
+      JSON over HTTPS, webhooks for order and balance events.
+    humanURL: https://sim7.org/ru/docs
+    baseURL: https://sim7.org/api/v1
+    tags:
+      - sms
+      - otp
+      - verification
+      - virtual numbers
+      - communication
+      - authentication
+    properties:
+      - type: Documentation
+        url: https://sim7.org/ru/docs
+maintainers:
+  - FN: Sim7
+    url: https://sim7.org
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 85
+  at: '2026-08-13T07:06:01.442Z'
