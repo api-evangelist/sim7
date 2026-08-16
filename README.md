@@ -28,11 +28,10 @@ APIs.io is a discovery catalog. Listing this would publish it as a recommended
 integration to developers and to agents, with a Kin Score attached that reads as a
 measure of quality. That is not something the catalog will carry.
 
-This is recorded as `basis: policy` in the public delisting registry, which is the
-mechanism that keeps any future harvest, enrichment pass, or re-submission from
-re-creating this record automatically:
-
-https://github.com/api-search/network/blob/main/_data/delisted.yml
+This is recorded as `basis: policy` in the catalog's delisting registry, which every
+pipeline consults before it can create, enrich, score, or index a provider. That entry —
+not the deletion of these files — is what keeps a future harvest, enrichment pass, or
+re-submission from re-creating this record automatically.
 
 ## If you are from Sim7
 
